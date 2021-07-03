@@ -2460,54 +2460,102 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- Start Banner Area ------------*/
-.homepage-info .info-sum{
+.homepage-info .info-sum p{
   position: absolute;
   left:20vw;
   top:10vh;
+  font-weight: 500;
+  font-size:1.5vw;
+  
+}
+.homepage-info .info-sum .info-sum-eng{
+  position: absolute;
+  left:20vw;
+  top:13vh;
+  font-size:1vw;
+  color: rgb(141, 141, 141);
+}
+.homepage-info .info-left .info-left-eng{
+  position: absolute;
+  font-size:1px;
+  color: rgb(141, 141, 141);
+}
+.homepage-info .info-right .info-right-eng{
+  position: absolute;
+  font-size:1px;
+  color: rgb(141, 141, 141);
 }
 .homepage-info .info-left{
   position: absolute;
-  left:25vw;
-  top:20vh;
+  left:23vw;
+  top:65vh;
+  font-size:1vw;
+  text-align: center;
 }
 .homepage-info .info-right{
   position: absolute;
-  right:26vw;
-  top:20vh;
+  right:23vw;
+  top:65vh;
+  font-size:1vw;
+  text-align: center;
 }
 .homepage-info p{
   color: #fff;
-  font-size:1vw;
+  
+ 
+}
+.homepage-info .info-stepnum{
+  position: absolute;
+  left:2vw;
+  bottom:10vh;
+  color: rgb(43, 43, 43);
+  font-weight: 800;
+  font-size:10vw;
+  text-transform: uppercase;
 }
 
-.banner-area-homepage {
+.banner-area {
   background: rgb(24, 24, 24);
 
 /* background: -moz-linear-gradient(0deg, #000000 0%, #000000a6 100%);
 background: -webkit-linear-gradient(0deg,#000000 0%, #000000a6 100%);
 background: -ms-linear-gradient(0deg,#000000 0%, #000000a6 100%); */
 }
+.startpage-info{
+  background: rgb(24, 24, 24);
+}
 .button-bro{
   width:100vw;
-  height:25vw;
-  top: 25vh;
+  height:20vw;
+  bottom: 40vh;
   position:absolute;
  
 }
 .button-left {
-  width:25vw;
-  height:25vw; 
+  width:20vw;
+  height:20vw; 
   position:absolute;
   left: 20vw;
 }
 .button-right {
-  width:25vw;
-  height:25vw;  
+  width:20vw;
+  height:20vw;  
   position:absolute;
   right: 20vw;
 }
+.button-bro .button-text-eng a{
 
-.button-bro a{
+  display:inherit;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1vw;
+  text-transform: uppercase;
+  outline: none;
+  margin-top: 1vw;
+
+}
+.button-bro .button-text a{
   /* padding: 0 8px 0px 8px; */
   /* margin-top:-200px; */
   text-decoration: none;
@@ -2515,31 +2563,93 @@ background: -ms-linear-gradient(0deg,#000000 0%, #000000a6 100%); */
   text-align: center;
   color: rgb(255, 255, 255);
   font-weight: 800;
-  font-size: 2.5vw;
+  font-size: 2vw;
   text-transform: uppercase;
   outline: none;
-  line-height:25vw;
+  margin-top: 8vw;
 }
 .button-bro :hover .button-bg{
-transform-origin: 12vw 12vw;
+transform-origin: 10vw 10vw;
 transform:scale(1.1);
 opacity:1;
 }
 .button-bg{
   transition: 0.5s;
   opacity: 0.5;
+
 }
 
 .button-bro img{
   display: block;
   margin: 0 auto;
   position: absolute;
-  width:25vw;
-  height:25vw;
+  width:20vw;
+  height:20vw;
+}
+
+.startpage-img img{
+  bottom: 50vh;
+  left: 35vw;
+  position: absolute;
+  line-height: 100vh;
+  width: 30vw;
+  height: 5vw;
+}
+.startpage-info{
+  position: absolute;
+  width: 20vw;
+  height: 5vh;
+  bottom:18vh;
+  left:40vw;
+}
+.button-start{
+  text-align: center;
   
 }
+.button-start-eng{
+margin-top: 1vh;
+text-align: center;
+}
+.button-start-eng a{
+  color: rgb(105, 105, 105);
+  font-size: 1vw;
+  outline: none;
+}
+.button-start a{
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  outline: none;
+  
+}
+.startpage-button{
+  transition: 0.5s;
+opacity: 0.5;
+}
+.startpage-button{
+  left:46.5vw;
+  position: absolute;
+  bottom:27vh;
+  width: 7vw;
+  height: 7vw;
+}
+.startpage-button img{
+  width: 7vw;
+  height: 7vw;
+}
+
 .banner-area-homepage {
   height: 100vh !important;
+}
+.startpage-img{
+  width: 100vw;
+  height: 100vh;
+}
+.start-button:hover a{
+  color: rgb(7, 148, 243);
+}
+.start-button:hover .startpage-button{
+  transform:scale(1.3);
+  opacity:1;
 }
 .button-left:hover a {
   color: rgb(7, 148, 243);
