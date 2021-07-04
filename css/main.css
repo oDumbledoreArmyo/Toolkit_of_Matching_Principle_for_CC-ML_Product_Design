@@ -2460,6 +2460,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- Start Banner Area ------------*/
+.icon-c{
+  position: absolute;
+  width: auto;
+  height: 5vw;
+  margin-left: 7vw;
+  margin-top: -10vw;
+}
+.icon-c img{
+  position: absolute;
+width: auto;
+  height: 5vw;
+}
+.icon-p{
+  position: absolute;
+  width: auto;
+  height: 5vw;
+  margin-left: 7vw;
+  margin-top: -10vw;
+}
+.icon-p img{
+width: auto;
+  height: 5vw;
+}
 .check-list{
   position: absolute;
   width: 40vw;
@@ -2881,7 +2904,7 @@ background: -ms-linear-gradient(0deg,#000000 0%, #000000a6 100%); */
   font-size: 2vw;
   text-transform: uppercase;
   outline: none;
-  margin-top: 8vw;
+  margin-top: 11vw;
 }
 
 .button-bro :hover .button-bg{
@@ -2900,7 +2923,7 @@ opacity:1;
 
 }
 
-.button-bro img{
+.button-bro .button-bg img{
   display: block;
   margin: 0 auto;
   position: absolute;
