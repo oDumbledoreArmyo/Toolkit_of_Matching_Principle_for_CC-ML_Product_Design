@@ -2463,7 +2463,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: none;
 }
 #hide-2{
-  display: block;
+  display: none;
 }
 #hide-3{
   display: none;
@@ -2522,7 +2522,16 @@ position: absolute;
   width: 6vw;
   height: auto;
 }
-
+.step2-p-1-btn-row1 :hover .step2-p-1-btnbg{
+  transform-origin: 3vw 3vw;
+  transform: scale(1.1);
+  opacity: 1;
+}
+.step2-p-1-btn-row2 :hover .step2-p-1-btnbg{
+  transform-origin: 3vw 3vw;
+  transform: scale(1.1);
+  opacity: 1;
+}
 .detail-2 :hover .step2-p-1-btnbg{
   transform-origin: 3vw 3vw;
   transform: scale(1.1);
