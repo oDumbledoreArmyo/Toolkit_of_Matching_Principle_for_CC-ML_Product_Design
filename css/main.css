@@ -92,7 +92,7 @@ $black			: #222;
 }
 
 body {
-  color: #777777;
+  background: rgb(24, 24, 24); !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -3197,7 +3197,7 @@ padding-left: 5vw;
 }
 
 .banner-area {
-  background: rgb(24, 24, 24);
+  /* background: rgb(24, 24, 24); */
 
 /* background: -moz-linear-gradient(0deg, #000000 0%, #000000a6 100%);
 background: -webkit-linear-gradient(0deg,#000000 0%, #000000a6 100%);
