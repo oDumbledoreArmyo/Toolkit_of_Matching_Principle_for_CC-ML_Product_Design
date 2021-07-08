@@ -92,7 +92,7 @@ $black			: #222;
 }
 
 body {
-  background: rgb(24, 24, 24); !important;
+  background: rgb(24, 24, 24)!important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -2609,11 +2609,75 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hide-4-1-2-f{
   display: none;
 }
-
-
+#panel{
+  display: none;
+}
+#btn-hide{
+  display: none;
+}
 
 
 /*-------- Start Banner Area ------------*/
+.draw-btn-2{
+  position: fixed;
+  height: 100vh;
+  line-height: 100vh;
+  right:18vh;
+}
+.draw-btn-2 img{
+  width: 2vh;
+  height: auto;
+}
+.draw-btn-input-2{
+  width: 2vh;
+  height: 12vh;
+  background:none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  margin-top: 44vh;
+  right:18vh;
+}
+
+.draw-box-panel{
+  margin-top: 25vh;
+  width: 20vh;
+  height: 50vh;
+  background: rgb(17, 17, 17);
+  border-radius: 10px;
+  box-shadow:0 0 10px rgb(63, 63, 63)
+
+}
+.draw-box-outdiv{
+  position: fixed;
+  right: 0; 
+}
+.draw-box{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.draw-btn{
+  position: fixed;
+  height: 100vh;
+  line-height: 100vh;
+  right: 0;
+}
+.draw-btn img{
+  width: 2vh;
+  height: auto;
+}
+.draw-btn-input{
+  width: 2vh;
+  height: 12vh;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  margin-top: 44vh;
+  right: 0;
+  background:none;
+}
+
 .canvas1{
   width: 20vw;
   height: auto;
@@ -2684,14 +2748,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: rgb(201, 201, 201);
 }
 .focuspoint-detail{
-  margin-top: 0.5vw !important;
+  width: 0.5vw;
+  height: auto;
   margin: 0 auto;
- text-align: center;
+
 }
+
 .focuspoint-detail img{
   width: 0.5vw;
   height: auto;
 }
+
 .detail-2-info-hide{
   position: absolute;
   margin-top:7vw;
@@ -2730,8 +2797,8 @@ position: absolute;
   margin-top: 17vw;
   }
 .step2-p-1-btn-row4{
-  position: absolute;
-  margin-top: 15vw;
+  /* position: absolute;*/
+  margin-top: 25vw; 
   }
 .step2-p-1-btn{
   float: left;
@@ -2761,11 +2828,11 @@ position: absolute;
   transform: scale(1.1);
   opacity: 1;
 }
-.step2-p-1-btn-row4 :hover .step2-p-1-btnbg{
+/* .step2-p-1-btn-row4 :hover .step2-p-1-btnbg{
   transform-origin: 3vw 3vw;
   transform: scale(1.1);
   opacity: 1;
-}
+} */
 
 
 .detail-3 :hover .step2-p-1-btnbg{
@@ -2856,7 +2923,6 @@ width: 30vw;
   margin-top: -10vw; */
 }
 .icon-c img{
- 
   width: auto;
   height: 5vw;
 }
@@ -2873,13 +2939,14 @@ width: auto;
 }
 .check-list{
   position: absolute;
-  width: 40vw;
-  height: auto;
-  bottom: 20vh;
-  right: 2vw;
-  text-align: right;
-  font-size: 1em;
+  width: 20vh;
+  height: 60vh;
+  margin-top: 2vh;
+margin-left: 3vh;
+  text-align: left;
+  font-size: 0.7em;
   color: #fff;
+  line-height: 4vh;
 }
 .front-info{
   text-align: center;
@@ -2887,7 +2954,7 @@ width: auto;
   color: #fff;
 }
 .front-back{
-  position: absolute;
+  position: fixed;
   bottom: 8vh;
   right: 2vw;
   width: 5vw;
@@ -2972,10 +3039,6 @@ opacity: 1;
 }
 
 
-input :hover{
-  color: rgb(7, 148, 243);
-  opacity: 0.5;
-}
 
 .show-hide-1
 {
@@ -3103,7 +3166,7 @@ padding-left: 5vw;
   text-align: left;
 }
 .step-info .info-stepnum{
-  position: absolute;
+  position: fixed;
   left:2vw;
   bottom:10vh;
   color: rgb(43, 43, 43);
@@ -3268,6 +3331,15 @@ background: -ms-linear-gradient(0deg,#000000 0%, #000000a6 100%); */
   margin: 0 auto;
   line-height: 1.2em;
 }
+.button-text-eng-aaa{
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: uppercase;
+  outline: none;
+}
 .button-bro .button-text-eng a{
   text-align: center;
   margin: 0 auto;
@@ -3279,7 +3351,16 @@ background: -ms-linear-gradient(0deg,#000000 0%, #000000a6 100%); */
 
 }
 
-
+.button-text-aaa{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  outline: none;
+  margin-top: 2vw;
+}
 .button-bro .button-text a{
   /* padding: 0 8px 0px 8px; */
   /* margin-top:-200px; */

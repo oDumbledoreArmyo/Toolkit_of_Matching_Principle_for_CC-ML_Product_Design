@@ -99,11 +99,11 @@
 								<p>
 									请根据两个画布的内容完成概念设计
 								</p>
-								<div class = "info-1-eng">
-									Please complete the concept design according to the contents of the two canvases								</div>
+								<!-- <div class = "info-1-eng">
+									Please complete the concept design according to the contents of the two canvases								</div> -->
 							</div>	
 							<a href="#">
-								<input class = "show-hide-1" type="button" id="show-1" value = "概念设计/Concept design"/>
+								<input class = "show-hide-1" type="button" id="show-1" value = "概念设计"/>
 							</a>
 						</div>
 
@@ -116,11 +116,11 @@
 								<p>
 									请根据概念设计成果完成原型制作
 								</p>
-								<div class = "info-2-eng">
-									Please complete the prototype according to the concept design results								</div>
+								<!-- <div class = "info-2-eng">
+									Please complete the prototype according to the concept design results								</div> -->
 							</div>
 							<a href="#">
-								<input class = "show-hide-2" type="button" id="show-2" value = "原型制作/Prototyping"/>
+								<input class = "show-hide-2" type="button" id="show-2" value = "原型制作"/>
 							</a>
 						</div>
 
@@ -148,6 +148,38 @@
 						请根据概念设计成果完成原型制作（本课程不作强制要求）
 					</div>
 				</div>
+
+				<div class="draw-box">
+					<div class="draw-btndiv" >
+						<div class="draw-btn" id="btn-show">
+							<img src="img/draw-btn.png">
+						</div>
+							<input class = "draw-btn-input" type="button" id="show-123" value = "" />
+					</div>
+
+					<div class="draw-box-outdiv" id="panel">
+						<div class="draw-box-panel">
+							<div class="check-list">
+								<h3>项目产出列表<br></h3>
+								<h6>-</h6>
+								Step2-P / 设计概要<br>
+								Step3-P / 用户研究报告<br>
+								Step4-P / 文化符号选择过程<br>
+								Step4-P / 文化符号特征列表<br>
+								Step5-P / 概念匹配画布<br>
+								Step5-P / 匹配性设计潜能画布<br>
+								Step6-P / 概念设计结果<br>
+								Step6-P / 产品原型<br>
+							</div>
+						</div>
+					</div>
+					<div class="draw-btndiv" id="btn-hide">
+						<div class="draw-btn-2">
+							<img src="img/draw-btn-2.png">
+						</div>
+							<input class = "draw-btn-input-2" type="button" id="hide-box" value = "" />
+					</div>
+				</div>
 			
 
 				<div class = "front-back">
@@ -168,17 +200,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="check-list">
-					目前应有的产出内容<br>
-					Step2-P / 设计概要<br>
-					Step3-P / 用户研究报告<br>
-					Step4-P / 文化符号选择过程<br>
-					Step4-P / 文化符号特征列表<br>
-					Step5-P / 概念匹配画布<br>
-					Step5-P / 匹配性设计潜能画布<br>
-					Step6-P / 概念设计结果<br>
-					Step6-P / 产品原型<br>
-				</div>
+				
 			</section>
 			<!-- End banner Area -->
 		
@@ -196,17 +218,15 @@
 						document.getElementById("hide-3").style.display = "none";
 						document.getElementById("hide-4").style.display = "none";
 					}
-					document.getElementById("show-3").onclick = function(){
-						document.getElementById("hide-3").style.display = "block";
-						document.getElementById("hide-2").style.display = "none";
-						document.getElementById("hide-1").style.display = "none";
-						document.getElementById("hide-4").style.display = "none";
+					document.getElementById("show-123").onclick = function(){
+						document.getElementById("panel").style.display = "block";
+						document.getElementById("btn-hide").style.display = "block";
+						document.getElementById("btn-show").style.display = "none";
 					}
-					document.getElementById("show-4").onclick = function(){
-						document.getElementById("hide-4").style.display = "block";
-						document.getElementById("hide-2").style.display = "none";
-						document.getElementById("hide-1").style.display = "none";
-						document.getElementById("hide-3").style.display = "none";
+					document.getElementById("hide-box").onclick = function(){
+						document.getElementById("panel").style.display = "none";
+						document.getElementById("btn-hide").style.display = "none";
+						document.getElementById("btn-show").style.display = "block";
 					}
 				}
 			</script>
